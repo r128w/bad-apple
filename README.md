@@ -6,3 +6,5 @@ or
 Frames are numbered as ```%d``` starting at 1.
 
 For example, the third frame's BMP is at ```/bmp/3.bmp```.
+
+Shoutout ffmpeg and potrace :)
