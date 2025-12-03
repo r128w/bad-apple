@@ -1,3 +1,5 @@
+These are individual frames of Bad Apple. They are very low resolution (96x84), and very low framerate (10).
+
 Access frames at:
 ```https://r128w.github.io/bad-apple/bmp/[frame number].bmp```
 or
