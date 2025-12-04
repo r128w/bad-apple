@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>"Bad Apple Google Doc"</title>
+        <style>
+            .display{
+                background-color:#fff;
+                position:absolute;
+                color:#000;
+                width:42vw;
+                margin-left:auto;
+                margin-right:auto;
+                font-size:2.5vh;
+                padding:2vh;
+                padding-top:0px;
+                padding-right:4vw;
+                line-height:3.7vh;
+                height:80vh;
+                top:17.5vh;
+                left:50%;transform:translate(-50%, 0);
+                overflow:hidden;
+                /* display:none; */
+            }
+            #display2{
+                padding-top:3.7vh;
+                mask-image:url(#mask);
+                mask-size:100%;
+            }
+            #mask{
+                /* display:none; */
+            }
+        </style>
+    </head>
+    <body style="background-image:URL(./background.png);background-size:100vw">
+        <div id="display1" class="display"></div>
+        <div id="display2" class="display"></div>
+        <svg>
+            <defs>
+                <mask mask-type="alpha" id="mask" viewbox="0 0 96 84" style="width:42vw">
+                        <g transform="scale(6.7)" id="mask-inside">
+                        </g>
+                </mask>
+            </defs>
+        </svg>
+        <script src="main.js"></script>
+    </body>
+</html>
