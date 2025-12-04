@@ -9,4 +9,4 @@ Frames are numbered as ```%d``` starting at 1.
 
 For example, the third frame's BMP is at ```/bmp/3.bmp```.
 
-Shoutout ffmpeg and potrace :)
+Shoutout ffmpeg and potrace :) ```bmptosvg.sh``` uses them, but in the local directory rather than on PATH or similar
