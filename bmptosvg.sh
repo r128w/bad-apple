@@ -12,8 +12,8 @@ for i in `seq 1 $max`; do
     if [ $(($i % 100)) -eq 0 ]; then
         echo lowk ey converting $i
     fi
-    infile="frames/bmp/$i.bmp"
-    outfile="frames/svg/$i.svg"
+    infile="bmp/$i.bmp"
+    outfile="svg/$i.svg"
     ./potrace/potrace -s $infile -o $outfile
 done
 
