@@ -85,7 +85,7 @@ const badapple = {
     }
 }
 
-alert("the video needs to load. wait until you get another popup :3")
+alert("the video needs to load. wait until you get another popup this could take a while :3")
 
 display.init()
 badapple.load()
